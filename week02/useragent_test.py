@@ -5,3 +5,4 @@ ua = UserAgent(verify_ssl=False) #不要去进行ssl的验证
 # print(ua.safari)
 
 print(f'随机浏览器：{ua.random}')
+

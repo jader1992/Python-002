@@ -5,7 +5,7 @@
 #
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+#     https://docs.scrapy.org/en/lateipst/topics/spider-middleware.html
 
 BOT_NAME = 'maoyan'
 
@@ -15,6 +15,7 @@ NEWSPIDER_MODULE = 'maoyan.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'maoyan (+http://www.yourdomain.com)'
+
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -40,8 +41,10 @@ DOWNLOAD_DELAY = 1
 DEFAULT_REQUEST_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) '
                   'Chrome/84.0.4147.89 Safari/537.36',
-    'Cookie': '__mta=46947736.1595772898549.1596004106629.1596163789775.8; uuid_n_v=v1; uuid=623213C0CF4A11EA9D9027CAB3F025F8A1814158FA1742E5B48F549EDC7F0900; _csrf=a83958c5fe77e1aa5569d63f33e8fab6503fb91797c2c915f11e62b73e5593e2; Hm_lvt_703e94591e87be68cc8da0da7cbd0be2=1595772898; _lxsdk_cuid=1738b7a0c734d-0e015a05a9adb7-31617402-1fa400-1738b7a0c7441; _lxsdk=623213C0CF4A11EA9D9027CAB3F025F8A1814158FA1742E5B48F549EDC7F0900; mojo-uuid=dfd55e56875b91c9105e6b7438ad37ea; Hm_lpvt_703e94591e87be68cc8da0da7cbd0be2=1596206370; __mta=46947736.1595772898549.1596163789775.1596206370570.9; _lxsdk_s=173a56d5c3b-40-6f2-88f%7C%7C1'
+    'Cookie': '__mta=46947736.1595772898549.1596004106629.1596163789775.8; uuid_n_v=v1; uuid=623213C0CF4A11EA9D9027CAB3F025F8A1814158FA1742E5B48F549EDC7F0900; _csrf=a83958c5fe77e1aa5569d63f33e8fab6503fb91797c2c915f11e62b73e5593e2; _lxsdk_cuid=1738b7a0c734d-0e015a05a9adb7-31617402-1fa400-1738b7a0c7441; _lxsdk=623213C0CF4A11EA9D9027CAB3F025F8A1814158FA1742E5B48F549EDC7F0900; mojo-uuid=dfd55e56875b91c9105e6b7438ad37ea; Hm_lvt_703e94591e87be68cc8da0da7cbd0be2=1595772898,1596973359; _lx_utm=utm_source%3DBaidu%26utm_medium%3Dorganic; mojo-session-id={"id":"fba1a38c2c57ef28838980d3db7b5703","time":1596978773193}; mojo-trace-id=1; Hm_lpvt_703e94591e87be68cc8da0da7cbd0be2=1596978773; __mta=46947736.1595772898549.1596163789775.1596978773408.9; _lxsdk_s=173d35a21a6-c6f-47b-fb3%7C%7C3'
 }
+
+
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
@@ -51,9 +54,18 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'maoyan.middlewares.MaoyanDownloaderMiddleware': 543,
-# }
+
+DOWNLOADER_MIDDLEWARES = {
+   'maoyan.middlewares.MaoyanDownloaderMiddleware': 543,
+   'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': None,
+   'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+   'maoyan.middlewares.MaoyanHttpProxyMiddleware': 400
+}
+
+HTTP_PROXY_LIST = [
+    'http://165.225.36.40:10605',
+    'http://165.225.73.25:10605'
+]
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -63,9 +75,13 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+
+
 ITEM_PIPELINES = {
    'maoyan.pipelines.MaoyanPipeline': 300,
 }
+
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -87,3 +103,11 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+DBINFO = {
+    "host": 'localhost',
+    "port": 3306,
+    "user": 'root',
+    "password": '12345678',
+    "db": "test"
+}

@@ -1,24 +1,28 @@
 import scrapy
 import csv
 from bs4 import BeautifulSoup
+from fake_useragent import UserAgent
 from scrapy.selector import Selector
 from maoyan.items import MaoyanItem
+from maoyan.settings import *
 
 class FetchmovieSpider(scrapy.Spider):
     name = 'fetchmovie'
     allowed_domains = ['maoyan.com']
     start_urls = ['https://maoyan.com/films?showType=3/']
+    # start_urls = ['http://httpbin.org/ip']
 
     def start_requests(self):
         url = 'https://maoyan.com/films?showType=3'
-        yield scrapy.Request(url, callback=self.parse)
+        agent = UserAgent(verify_ssl=False).random
+        headers = {
+            'User-Agent': agent,
+            'Cookie': DEFAULT_REQUEST_HEADERS['Cookie']
+        }
+        yield scrapy.Request(url, callback=self.parse, headers=headers)
 
     def parse(self, response):
         # print(response.text)
-        # soup = BeautifulSoup(response.text, 'html.parser')
-        # print(soup)
-
-        # movies = Selector(response=response).xpath('//div[@class="movie-hover-info"]')
 
         movies = Selector(response).xpath('//div[@class="movie-hover-info"]')[0:10]
         i = 1
