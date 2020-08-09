@@ -1,7 +1,7 @@
 
 from selenium import webdriver
 import time
-
+# 可以优化成函数，使用参数传入的方式
 try:
     browser = webdriver.Chrome() #将会拉起我们的chrome浏览器
 
