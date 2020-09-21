@@ -4,7 +4,7 @@ import time
 from multiprocessing import Process
 
 class NewProcess(Process): #继承Process类创建一个新类
-    def __init__(self,num):
+    def __init__(self, num):
         self.num = num
         super().__init__()
 
