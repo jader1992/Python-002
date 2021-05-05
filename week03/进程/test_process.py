@@ -1,5 +1,5 @@
-
 from multiprocessing import Process
+
 
 #  参数
 # multiprocessing.Process(self, group=None, target=None, name=None, args=(), kwargs={}, daemon=None)
@@ -10,19 +10,21 @@ from multiprocessing import Process
 # - args: 表示被调用对象的位置参数元组,比如target是函数a,他有两个参数m, n,那么args就传入（m,n）
 # - kwargs:  表示被调用的字典
 
+
 def f(name):
     print(f"hello {name}")
+
 
 def m(param):
     print(param)
 
+
 if __name__ == '__main__':
-    p = Process(target=f, args=('world',)) #启动一个子进程
-    p.start() #子进程启动
-    #p.join() #父进程要等待子进程 结束
+    p = Process(target=f, args=('world',))  # 启动一个子进程
+    p.start()  # 子进程启动
+    p.join(2) # 父进程要等待子进程 结束
 
     m('ceshi')
-
 
 # join([timeout])
 # 如果可选参数 timeout 是 None （默认值），则该方法将阻塞，

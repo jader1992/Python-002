@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>books</title>
 </head>
 <body>
-$END$
+    {% for book in books %}
+    <div>
+        bookname: {{book.name}} <br>
+        author: {{book.author}} <br>
+        stars: {{book.stars}}
+    </div>
+    {% endfor %}
 </body>
 </html>

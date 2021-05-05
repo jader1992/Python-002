@@ -3,15 +3,17 @@ import os
 import time
 from multiprocessing import Process
 
-class NewProcess(Process): #继承Process类创建一个新类
+
+class NewProcess(Process):  # 继承Process类创建一个新类
     def __init__(self, num):
         self.num = num
         super().__init__()
 
-    def run(self):  #重写Process类中的run方法.
+    def run(self):  # 重写Process类中的run方法.
         while True:
-            print(f'我是进程 {self.num} , 我的pid是: {os.getpid()}')
+            print(f'我是进程 {self.num} , 我的pid是: {os.getpid()} 我的ppid是: {os.getppid()}')
             time.sleep(1)
+
 
 if __name__ == "__main__":
     for i in range(2):

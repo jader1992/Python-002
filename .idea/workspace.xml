@@ -1,4 +1,296 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="367e147d-e677-4937-b686-416e5907956c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/week03/进程/multi_process_var.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week03/进程/multi_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week03/进程/multi_queue1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week03/进程/test_pipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week03/进程/test_sharemem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/MyDjango/index/converters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/MyDjango/index/templates/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/MyDjango/index/templates/yearview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/MyDjango/index/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/MyPackage/Module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/MyPackage/Module2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/MyPackage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/MyPackage1/Module2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week06/frontend.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week02/job/job1/maoyan/maoyan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/week02/job/job1/maoyan/maoyan/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week03/进程/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/week03/进程/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week03/进程/process_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/week03/进程/process_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week03/进程/test_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/week03/进程/test_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week06/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week06/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week10/NOTE.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python-002" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fDL6vSF1a2OC8RAdECmbb9W8Iv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week06" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week06" />
+      <recent name="$PROJECT_DIR$/week06/MyDjango/douban" />
+      <recent name="$PROJECT_DIR$/week06/MyPackage1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_sharemem">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="python-002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week06/MyDjango" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week06/MyDjango/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multi_process_var" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03/进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/进程/multi_process_var.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multi_queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03/进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/进程/multi_queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multi_queue1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03/进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/进程/multi_queue1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_pipe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03/进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/进程/test_pipe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_sharemem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03/进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/进程/test_sharemem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.multi_process_var" />
+      <item itemvalue="Python.multi_queue" />
+      <item itemvalue="Python.multi_queue1" />
+      <item itemvalue="Python.test_pipe" />
+      <item itemvalue="Python.test_sharemem" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_sharemem" />
+        <item itemvalue="Python.test_pipe" />
+        <item itemvalue="Python.multi_queue1" />
+        <item itemvalue="Python.multi_queue" />
+        <item itemvalue="Python.multi_process_var" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="367e147d-e677-4937-b686-416e5907956c" name="Default Changelist" comment="" />
+      <created>1608732327551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608732327551</updated>
+      <workItem from="1608732329285" duration="1166000" />
+      <workItem from="1610456399007" duration="41268000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1046" height="245" key="GridCell.Tab.0.bottom" timestamp="1612037558117">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1046" height="245" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1612037558117" />
+    <state width="1046" height="245" key="GridCell.Tab.0.center" timestamp="1612037558117">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1046" height="245" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1612037558117" />
+    <state width="1046" height="245" key="GridCell.Tab.0.left" timestamp="1612037558117">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1046" height="245" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1612037558117" />
+    <state width="1046" height="245" key="GridCell.Tab.0.right" timestamp="1612037558117">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1046" height="245" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1612037558117" />
+    <state width="1398" height="289" key="GridCell.Tab.1.bottom" timestamp="1612037558106">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="289" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1612037558106" />
+    <state width="1398" height="289" key="GridCell.Tab.1.center" timestamp="1612037558105">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="289" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1612037558105" />
+    <state width="1398" height="289" key="GridCell.Tab.1.left" timestamp="1612037558105">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="289" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1612037558105" />
+    <state width="1398" height="289" key="GridCell.Tab.1.right" timestamp="1612037558106">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="289" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1612037558106" />
+    <state x="589" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1620121770466">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="589" y="277" key="com.intellij.ide.util.TipDialog/-1920.-256.1920.1057/0.23.1440.806@0.23.1440.806" timestamp="1620121770466" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="options" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_002$multi_queue.coverage" NAME="multi_queue Coverage Results" MODIFIED="1610970597172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$multi_process_var.coverage" NAME="multi_process_var Coverage Results" MODIFIED="1610883689639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$test_pipe.coverage" NAME="test_pipe Coverage Results" MODIFIED="1610974607979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$manage.coverage" NAME="manage Coverage Results" MODIFIED="1610808267140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week06/MyDjango" />
+    <SUITE FILE_PATH="coverage/python_002$debug.coverage" NAME="debug Coverage Results" MODIFIED="1610882770642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$Module2.coverage" NAME="Module2 Coverage Results" MODIFIED="1610806456748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week06/MyPackage" />
+    <SUITE FILE_PATH="coverage/python_002$test_sharemem.coverage" NAME="test_sharemem Coverage Results" MODIFIED="1610975273876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$process_class.coverage" NAME="process_class Coverage Results" MODIFIED="1610883106788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$test_process.coverage" NAME="test_process Coverage Results" MODIFIED="1610882213985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$test_fork.coverage" NAME="test_fork Coverage Results" MODIFIED="1610879742079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$firstproc.coverage" NAME="firstproc Coverage Results" MODIFIED="1610879692866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+    <SUITE FILE_PATH="coverage/python_002$multi_queue1.coverage" NAME="multi_queue1 Coverage Results" MODIFIED="1610970806202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03/进程" />
+  </component>
 </project>

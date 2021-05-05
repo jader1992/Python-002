@@ -1,4 +1,5 @@
-from . import Module
+from ..MyPackage import Module
+# .表示当前目录 ..表示父目录
 
 
 def func():
